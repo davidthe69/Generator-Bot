@@ -120,7 +120,6 @@ Bot.onAnyMessage = function(msg) {
 	if(!msg.author.bot) {
 		if(this.$evts["2"]) {
 			this.DBM.Events.callEvents("2", 1, 0, 2, false, '', msg);
-      client.login (process.env.NDUwNzMwOTIzMzkwOTI2ODc5.DfBbfQ.ck0T7NMMDcZtWS3AtaMrs59X-u4)
 		}
 	}
 };
